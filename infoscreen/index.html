@@ -2,14 +2,14 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>GOT &amp; Kamera Übersicht</title>
+  <title>GOT & Kamera Übersicht</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       width: 100vw;
       height: 100vh;
-      background-color: #0f0f27; /* Einheitlicher dunkler Hintergrund */
+      background-color: #0f0f27;
       font-family: Arial, sans-serif;
       display: flex;
       flex-direction: row;
@@ -41,7 +41,7 @@
   <!-- Linke Seite: GOT -->
   <div class="got-container">
     <iframe
-      src="http://192.168.100.121/index.html?andon=true&autofit=true&hiddenmenu=true#@@"
+      src="./got/index.html?andon=true&autofit=true&hiddenmenu=true"
       title="Produktionsdaten">
     </iframe>
   </div>
@@ -49,7 +49,7 @@
   <!-- Rechte Seite: Kamera -->
   <div class="camera-container">
     <iframe
-      src="http://192.168.100.123:80/liveView"
+      src="./kamera/index.html"
       title="Live Kamera">
     </iframe>
   </div>
